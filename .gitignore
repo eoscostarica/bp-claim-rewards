@@ -1,0 +1,12 @@
+# Environmental Variables
+.env*
+!.env.example
+# Editors
+.vscode/
+# MACOS
+.DS_Store
+# NPM
+modules
+node_modules
+# Yarn
+yarn-error.log
