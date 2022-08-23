@@ -6,7 +6,7 @@ const bpAccounts = [eosConfig.bpAccount]
 async function init() {
   try {
     for (const account of bpAccounts) {
-      console.log("Cheking if it's time to claim rewards:", account)
+      console.log("Checking if it's time to claim rewards:", account)
 
       const getProducers = async ({
         next_key: nextKey = null,
