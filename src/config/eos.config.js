@@ -3,5 +3,6 @@ module.exports = {
   chainId: process.env.CLAIM_API_CHAIN_ID,
   bpAccount: process.env.CLAIM_BP_ACCOUNT,
   claimPerms: process.env.CLAIM_PERMISION,
-  claimKey: process.env.CLAIM_PRIV_KEY
+  claimKey: process.env.CLAIM_PRIV_KEY,
+  network: process.env.CLAIM_NETWORK
 }
