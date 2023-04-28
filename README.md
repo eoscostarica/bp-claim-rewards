@@ -30,6 +30,7 @@ Some things you need before getting started:
 1.  Clone this repo using `git clone --depth=1 https://github.com/eoscostarica/claim-bp-rewards.git <YOUR_PROJECT_NAME>`
 2.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`.
 3.  Copy and rename the `.env.example` to `.env` then update the environment variables according to your needs
+4.  For the CLAIM_NETWORK, the supports networks are: `libre`,`libre-testnet`, `antelope`, `jungle`, `telos`, `telos-testnet`, `proton`, `proton-testnet`, `wax`, `wax-testnet`
 
 ### Quick start
 
